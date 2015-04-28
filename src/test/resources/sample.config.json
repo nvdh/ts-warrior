@@ -1,0 +1,15 @@
+{
+	fetcher : {
+		type : "prdcerto.fetch.ElineFetcher",
+		config : {
+			url : "http://prdecerto/default.aspx" 
+		}
+	},
+	reporters : [{
+		type : "prdcerto.report.HtmlReporter",
+		config : { 
+			location : "c:\\TEMP\\prdcerto",
+			language : "nl_NL"
+		}
+	}]
+}
